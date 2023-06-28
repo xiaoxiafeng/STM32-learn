@@ -296,7 +296,7 @@ See the section on [`code`](#code).
 链接图片
 给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。
 
-[![图片](http://qiniu.sprachlos.top/2023/03/02/6400405fc57af.jpg "Shiprock")](http://qiniu.sprachlos.top/2023/03/02/6400405fc57af.jpg)
+[![图片](http://qiniu.sprachlos.top/2023/03/02/6400405fc57af.jpg "Shiprock")](https://markdown.com.cn/)
 
 Markdown图片语法格式为：
 
