@@ -1,4 +1,5 @@
 # 一、Markdown简介
+
 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 
 Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。
@@ -15,7 +16,10 @@ Markdown编写Hello World!语法：
 
 # Hello World!
 
+hello world
+
 # 二、Markdown标题
+
 使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。
 
 使用#号标记标题语法格式：
@@ -50,21 +54,17 @@ Markdown 可以使用以下几种字体：
 语法格式：
 
 *斜体文字*
-
 _斜体文字_
-
 **粗体文字**
-
 __粗体文字__
-
 ***粗斜体文字***
 
 ___粗斜体文字___
 
 Markdown 应用程序在处理单词或短语中间添加的下划线上并不一致。为了实现兼容性，请使用星号将单词或短语的中间部分加粗并以斜体显示，以示重要。
 
-
 # 五、Markdown 引用语法
+
 要创建块引用，请在段落前添加一个 > 符号。
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
