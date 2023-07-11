@@ -30,3 +30,17 @@ uint8_t key_scan(void)
     }
     return 0;
 }
+
+uint8_t key0_scan(void)
+{
+    if (HAL_GPIO_ReadPin(GPIOH, GPIO_PIN_3)==0)
+    {
+        delay_ms(10);
+        if (HAL_GPIO_ReadPin(GPIOH, GPIO_PIN_3)==0)
+        {
+            while(HAL_GPIO_ReadPin(GPIOH, GPIO_PIN_3)==0);
+            return 1;
+        }
+    }
+    return 0;
+}

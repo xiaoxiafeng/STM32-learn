@@ -19,6 +19,10 @@ int main(void)
         {
             HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
         }
+        else if(key0_scan())
+        {
+            HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_1);
+        }
         else
         {
             delay_ms(10);
